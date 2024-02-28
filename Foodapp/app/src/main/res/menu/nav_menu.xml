@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/bottom_btn1"
+            android:title="Home"/>
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/mall_24"
+            android:title="Quản lý sản phẩm"/>
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/bottom_btn5"
+            android:title="Quản lý đơn hàng"/>
+        <item
+            android:id="@+id/nav_post"
+            android:icon="@drawable/post_add_24"
+            android:title="Quản lý bài viết"/>
+        <item
+            android:id="@+id/nav_tt"
+            android:icon="@drawable/user_circle_24"
+            android:title="Quản lý khách hàng"/>
+        <item
+            android:id="@+id/nav_bl"
+            android:icon="@drawable/baseline_message_24"
+            android:title="Quản lý bình luận"/>
+        <item
+            android:id="@+id/nav_tk"
+            android:icon="@drawable/chart_outlined_24"
+            android:title="Quản lý thống kê"/>
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/baseline_lock_24"
+            android:title="Đổi mật khẩu"/>
+    </group>
+    <item
+        android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/baseline_logout_24"
+                android:title="Đăng xuất"/>
+        </menu>
+
+    </item>
+
+</menu>
